@@ -76,7 +76,7 @@ exports[`test/lib/commands/config.js TAP config list --json > output matches sna
   "init-author-email": "",
   "init-author-name": "",
   "init-author-url": "",
-  "init-license": "ISC",
+  "init-license": "",
   "init-module": "{CWD}/home/.npm-init.js",
   "init-type": "commonjs",
   "init-version": "1.0.0",
@@ -84,7 +84,7 @@ exports[`test/lib/commands/config.js TAP config list --json > output matches sna
   "init.author.email": "",
   "init.author.name": "",
   "init.author.url": "",
-  "init.license": "ISC",
+  "init.license": "",
   "init.module": "{CWD}/home/.npm-init.js",
   "init.version": "1.0.0",
   "install-links": false,
@@ -255,7 +255,7 @@ include-workspace-root = false
 init-author-email = ""
 init-author-name = ""
 init-author-url = ""
-init-license = "ISC"
+init-license = ""
 init-module = "{CWD}/home/.npm-init.js"
 init-private = false
 init-type = "commonjs"
@@ -263,7 +263,7 @@ init-version = "1.0.0"
 init.author.email = ""
 init.author.name = ""
 init.author.url = ""
-init.license = "ISC"
+init.license = ""
 init.module = "{CWD}/home/.npm-init.js"
 init.version = "1.0.0"
 install-links = false
