@@ -1,5 +1,21 @@
 # Changelog
 
+## [11.15.0](https://github.com/npm/cli/compare/v11.14.1...v11.15.0) (2026-05-15)
+### Features
+* [`8df10f5`](https://github.com/npm/cli/commit/8df10f5a399048c9d2dd7eba1d65c0b4b6a5b1c8) [#9339](https://github.com/npm/cli/pull/9339) add allow-git/allow-file/allow-directory/allow-remote configs (@owlstronaut)
+### Bug Fixes
+* [`468550f`](https://github.com/npm/cli/commit/468550fb8f6ded97df03e6b8a82dbfbcb7b47d30) [#9339](https://github.com/npm/cli/pull/9339) refactor #failureNode, adjust tests and safety (@owlstronaut)
+* [`cabe249`](https://github.com/npm/cli/commit/cabe2499347c17d97eecc3bbca3d96fe2f556d0d) [#9339](https://github.com/npm/cli/pull/9339) allow-remote=none does not block registry tarballs (@owlstronaut)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.6.0): `@npmcli/arborist@9.6.0`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.8): `libnpmdiff@8.1.8`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v10.2.8): `libnpmexec@10.2.8`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.22): `libnpmfund@7.0.22`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.8): `libnpmpack@9.1.8`
+
 ## [11.14.1](https://github.com/npm/cli/compare/v11.14.0...v11.14.1) (2026-05-08)
 ### Bug Fixes
 * [`dca12cb`](https://github.com/npm/cli/commit/dca12cb24199aa7046eb53547097906b8731e51b) [#9328](https://github.com/npm/cli/pull/9328) remove settings (#9328) (@github-actions[bot], @owlstronaut)
